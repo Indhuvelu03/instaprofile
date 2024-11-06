@@ -14,6 +14,24 @@ function Profile() {
           <span><strong>297</strong> following</span>
         </div>
         <p className="bio">🌿 Embracing the wild, one adventure at a time 🌍</p>
+        
+        {/* New Followed by section with profile pictures */}
+        <div className="followed-by">
+          <span>Followed by </span>
+          <div className="followed-user">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="travelbug_92" className="followed-user-pic" />
+            <span>travelbug_92</span>
+          </div>, 
+          <div className="followed-user">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="mountain_dreamer" className="followed-user-pic" />
+            <span>mountain_dreamer</span>
+          </div>, 
+          <div className="followed-user">
+            <img src="https://randomuser.me/api/portraits/women/47.jpg" alt="forestwhisperer" className="followed-user-pic" />
+            <span>forestwhisperer</span>
+          </div>
+          <span> ...others</span>
+        </div>
       </div>
     </div>
   );
