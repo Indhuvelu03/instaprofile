@@ -1,0 +1,25 @@
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    padding: 0px 0px;
+    border-top: 1px solid #dbdbdb;
+  }
+  
+  .post img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background-color: #eaeaea;
+  }
+  .post {
+    text-align: center;
+    
+  }
+  
+  .caption {
+    font-size: 18px;
+    color: #110b0b;
+    margin-top: 5px;
+  }
+  

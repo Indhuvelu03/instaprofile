@@ -1,0 +1,64 @@
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    border: 2px solid #dbdbdb;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-size: 28px;
+    font-weight: 300;
+  }
+  
+  .follow-button {
+    font-size: 14px;
+    color: #0095f6;
+    background: none;
+    border: 1px solid #dbdbdb;
+    padding: 5px 9px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.follow-button:hover {
+    background-color: #0095f6;
+    color: white;
+}
+
+  
+  .stats {
+    display: flex;
+    gap: 25px;
+    margin: 15px 0;
+  }
+  
+  .stats span {
+    font-size: 16px;
+    color: #262626;
+  }
+  
+  .stats span strong {
+    font-weight: bold;
+  }
+  
+  .bio {
+    color: #262626;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+  
